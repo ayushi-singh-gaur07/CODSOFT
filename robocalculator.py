@@ -1,3 +1,4 @@
+#robospeaker-calculator to calculate arithmetic operation:
 import win32com.client as wincom
 import time
 speak=wincom.Dispatch("SAPI.Spvoice")
@@ -6,7 +7,7 @@ print("welcome to robospeaker calculator created by ayushi!!")
 def opr():
     speak.Speak("enter the first number::")
     x =int(input("enter the first  number::"))
-    speak.Speak(x)
+    speak.Speak(x)                                                                                              
     speak.Speak("enter the second number::")
     y=int(input("enter the second number::"))
     speak.Speak(y)
